@@ -100,13 +100,15 @@ class Heap:
 
     
     def get_min(self):
-        if len(self)==0:
+        if len(self) == 0:
             raise Exception('Called get_min on Empty Heap')
         
         return self[0]
     
     
     def extract_min(self):
+        if len(self) == 0:
+            raise Exception('Called extract_min on Empty Heap')
         last = len(self)-1
         self.swap(0,last)
         
@@ -128,7 +130,7 @@ class Heap:
     def update_key(self,value,new_key):
         i = self.indices[value]
         self.data[i][0] = new_key
-
+    
         self.percolate_up(i)
         self.percolate_down(i)
         
