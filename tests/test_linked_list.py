@@ -1,12 +1,5 @@
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
-"""
-Created on Thu Jan 14 00:28:00 2021
-
-@author: jamesdoucette
-"""
 import unittest
-from linked_list import ListNode
+from data_structs import ListNode
 
 class ListNodeTests(unittest.TestCase):
     def test_contains(self):

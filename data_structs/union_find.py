@@ -1,11 +1,3 @@
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
-"""
-Created on Sun Jan 24 16:17:28 2021
-
-@author: jamesdoucette
-"""
-
 class UnionFind():
     def __init__(self):
         self.pointer = {}

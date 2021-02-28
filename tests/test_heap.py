@@ -1,12 +1,5 @@
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
-"""
-Created on Thu Jan 14 01:23:26 2021
-
-@author: jamesdoucette
-"""
 import unittest
-from heap import Heap
+from data_structs import Heap
 
 
 def is_heap(h,i):

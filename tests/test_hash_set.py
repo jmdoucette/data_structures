@@ -1,12 +1,5 @@
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
-"""
-Created on Sun Jan 31 14:51:33 2021
-
-@author: jamesdoucette
-"""
 import unittest
-from hash_set import HashSet, OASet
+from data_structs import HashSet, OASet
 
 
 class HashSetTests(unittest.TestCase):

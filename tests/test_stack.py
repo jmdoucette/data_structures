@@ -1,12 +1,5 @@
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
-"""
-Created on Sun Jan 31 14:47:13 2021
-
-@author: jamesdoucette
-"""
 import unittest
-from stack import Stack
+from data_structs import Stack
 
 class StackTests(unittest.TestCase):
     def test(self):

@@ -1,10 +1,3 @@
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
-"""
-Created on Fri Sep  4 13:29:37 2020
-
-@author: jamesdoucette
-"""
 class Heap:
     def __init__(self,data=[],get_key = lambda x:x):
         self.data = data

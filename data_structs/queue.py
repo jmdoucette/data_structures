@@ -1,11 +1,4 @@
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
-"""
-Created on Sun Jan 31 14:44:37 2021
-
-@author: jamesdoucette
-"""
-from linked_list import ListNode
+from data_structs import ListNode
 
 class Queue:
     def __init__(self):

@@ -1,12 +1,5 @@
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
-"""
-Created on Thu Jan 28 17:01:42 2021
-
-@author: jamesdoucette
-"""
 import unittest
-from union_find import UnionFind
+from data_structs import UnionFind
 
 class UnionFindTests(unittest.TestCase):
     def test(self):

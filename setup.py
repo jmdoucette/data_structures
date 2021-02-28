@@ -8,7 +8,7 @@ setup(
   author = 'James Doucette',
   author_email = 'jmdoucette41@gmail.com',
   url = 'https://github.com/jmdoucette/data_structures',
-  download_url = 'https://github.com/jmdoucette/james_test_package/archive/v0.4.tar.gz',
+  download_url = 'https://github.com/jmdoucette/data_structures/archive/v0.1.tar.gz',
   keywords = [],
   install_requires=[],
   classifiers=[

@@ -1,12 +1,5 @@
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
-"""
-Created on Sun Jan 31 14:48:02 2021
-
-@author: jamesdoucette
-"""
 import unittest
-from queue import Queue
+from data_structs import Queue
 
 class QueueTests(unittest.TestCase):
     def test(self):

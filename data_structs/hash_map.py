@@ -1,10 +1,3 @@
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
-"""
-Created on Tue Sep  8 16:55:09 2020
-
-@author: jamesdoucette
-"""
 from random import randint
     
 class HashMap:

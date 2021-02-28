@@ -1,12 +1,5 @@
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
-"""
-Created on Sun Jan 31 14:33:52 2021
-
-@author: jamesdoucette
-"""
 import unittest
-from hash_map import HashMap,OAMap
+from data_structs import HashMap,OAMap
 
 
 class HashMapTests(unittest.TestCase):
