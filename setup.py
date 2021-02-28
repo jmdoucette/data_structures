@@ -2,13 +2,13 @@ from distutils.core import setup
 setup(
   name = 'data_structs',
   packages = ['data_structs'],   
-  version = '0.1',
+  version = '0.2',
   license='MIT',
   description = 'data stuctures library',
   author = 'James Doucette',
   author_email = 'jmdoucette41@gmail.com',
   url = 'https://github.com/jmdoucette/data_structures',
-  download_url = 'https://github.com/jmdoucette/data_structures/archive/v0.1.tar.gz',
+  download_url = 'https://github.com/jmdoucette/data_structs/archive/v0.2.tar.gz',
   keywords = [],
   install_requires=[],
   classifiers=[
